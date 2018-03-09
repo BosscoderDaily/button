@@ -1,2 +1,2 @@
 # hello-world
-Experimental first
+This is a simple coding start and is an experimantal static project
