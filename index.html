@@ -6,8 +6,8 @@
 
     </head>
     <body>
-        <a-scene embedded arjs>
-            <a-marker preset="hiro">
+        <a-scene embedded arjs="detectionMode: mono_and_matrix; matrixCodeType: 3x3;">
+            <a-marker type="barcode" value="0">
                <a-image src="arrow.png" side = "front"></a-image>
             </a-marker>
             <a-entity camera></a-entity>
